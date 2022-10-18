@@ -1,0 +1,8 @@
+CREATE DATABASE IY5AM2;
+USE IY5AM2;
+CREATE TABLE termekek (tkod INT PRIMARY KEY, nev VARCHAR(50) NOT NULL, ear INT CHECK(ear>0), kategoria CHAR(20));
+CREATE TABLE termekek VALUES (0, 'billentyűzet', 5000, 'elektronika');
+CREATE TABLE termekek VALUES (1, 'aso', 2000, 'kerteszet');
+CREATE TABLE termekek VALUES (2, 'lampa', 3000, 'elektronika');
+CREATE TABLE termekek VALUES (3, 'monitor', 15000, 'elektronika');
+CREATE TABLE termekek VALUES (4, 'szonyeg', 10000, 'egyeb');
